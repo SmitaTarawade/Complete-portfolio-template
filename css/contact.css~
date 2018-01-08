@@ -1,0 +1,135 @@
+*
+{
+font:Helvetica, sans-serif;
+}
+
+.inputs,.txts
+{
+height:40px;
+width:350px;
+border-radius:5px;
+border: 1px solid #636363;
+
+}
+table
+{
+margin:0 auto;
+}
+td
+{padding:5px;}
+th
+{
+text-align:left;
+color:#CCA3A3;
+}
+
+.btns
+{
+top:-15px;
+height:40px;
+background:url(/Images/stardust.png);
+display:block;
+color:#636363;
+line-height:40px;
+border-radius:3px;
+text-align:center;
+text-decoration:none;
+font-weight:bold;
+font-size:18px;
+width:382px;
+-webkit-box-shadow: inset -1px -12px 14px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -1px -12px 14px 4px rgba(0,0,0,0.75);
+box-shadow: inset -1px -12px 14px 4px rgba(0,0,0,0.75);
+
+}
+.btns:hover
+{
+color:#DBFFDB;
+}
+.txts
+{
+height:240px;
+width:350px;
+background:url(/Images/giftly1.jpg)
+}
+
+#txtName
+{
+background: white url(/Images/paper.png);
+}
+#txtEmail
+{
+background: white url(/Images/paper.png);
+}
+
+#txtProject
+{
+background: white url(/Images/paper.png);
+}
+#txtName,#txtEmail,#txtProject
+{
+padding-left: 28px;
+font-size:13px;
+-webkit-box-shadow: 0px -3px 3px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    0px -3px 3px 0px rgba(50, 50, 50, 0.5);
+box-shadow:         0px -3px 3px 0px rgba(50, 50, 50, 0.5);
+}
+
+#txtProject
+{
+padding-top:5px;
+}
+
+#form
+{
+float:left;width:400px;
+}
+
+#social
+{
+float:right;
+width:400px;
+}
+
+#social ul
+{
+list-style:none;
+}
+
+
+.fb, .twitter, .instagram, .youtube
+{
+width:300px;
+text-decoration:none;
+color:#636363;
+font-size:24px;
+padding:10px;
+text-align:left;
+float:right;
+
+}
+
+.fb:hover
+{
+text-decoration:underline;
+}
+
+.twitter:hover
+{
+text-decoration:underline;
+}
+
+.instagram:hover
+{
+text-decoration:underline;
+}
+.youtube:hover
+{
+text-decoration:underline;
+}
+
+#social ul li a img:hover
+{
+transform:rotate(-10deg);
+-webkit-transform:rotate(-10deg);
+}

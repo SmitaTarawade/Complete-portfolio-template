@@ -1,0 +1,73 @@
+*
+{
+font:Helvetica, sans-serif;
+}
+
+.inputs,.txts
+{
+height:40px;
+width:350px;
+border-radius:5px;
+}
+table
+{
+margin:0 auto;
+}
+td
+{padding:5px;}
+th
+{
+text-align:left;
+color:#CCA3A3;
+}
+
+.btns
+{
+height:40px;
+background:url(Images/stardust.png);
+display:block;
+color:#636363;
+line-height:50px;
+border-radius:3px;
+text-align:center;
+text-decoration:none;
+font-weight:bold;
+font-size:18px;
+width:385px;
+-webkit-box-shadow: inset -1px -12px 14px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -1px -12px 14px 4px rgba(0,0,0,0.75);
+box-shadow: inset -1px -12px 14px 4px rgba(0,0,0,0.75);
+top:-10px;
+}
+.btns:hover
+{
+color:#DBFFDB;
+}
+.txts
+{
+height:240px;
+width:350px;
+background:url(Images/giftly1.jpg)
+}
+
+#txtName
+{
+background: white url(Images/icons/Contact.png) left no-repeat;
+}
+#txtEmail
+{
+background: white url(Images/icons/mail.png) left no-repeat;
+}
+#txtWebsite
+{
+background: white url(Images/icons/C.png) left no-repeat;
+}
+#txtProject
+{
+background: white url(Images/icons/Pencil.png) left no-repeat;
+background-position:top left;
+}
+#txtName,#txtEmail,#txtWebsite,#txtProject
+{
+padding-left: 28px;
+}
